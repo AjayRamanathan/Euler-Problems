@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 def main() :
-  a = '21'
+  a = '111221'
   print(digpart(a))
     
 def digpart(a) :
@@ -18,9 +18,10 @@ def digpart(a) :
       b.append(counter)
       b.append(int(x))
       counter = 0
-      x = a[:j+1]
+      x = a[:j-1]
+      counter = 1
     j = j+1
-    if counter == 0:
+    if counter == 0 :
       continue
     elif j == length+1 :
       b.append(counter)
