@@ -4,7 +4,7 @@ def main() :
   
   a = '1'
   i = 1
-  n = 50
+  n = 40
   #n = 10**12
   print n
   while i < n :
